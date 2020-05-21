@@ -1,0 +1,17 @@
+.root {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.direction-root {
+    margin-top: 30px;
+}
+
+.station-root {
+    margin-top: 20px;
+}
+.station-root mat-form-field {
+    width: 400px;
+}

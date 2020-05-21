@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "melapp"
+    }
+  },
+  "defaultProject": "melapp",
+  "cli": {
+    "analytics": "b2c63dba-fd09-41e1-af94-b83342f364d5"
+  }
 }
