@@ -14,7 +14,7 @@ const apiUrl = "https://asmelapi.azurewebsites.net/api/tramway/nextDepartures";
 export class AppComponent {
   nextDepartures$: Observable<NextDeparture[]>;
   stations$: Observable<string[]>;
-  direction$ = new BehaviorSubject<string>("LILLE FLANDRES");
+  direction$ = new BehaviorSubject<string>("ROUBAIX/TOURCOING");
   search$ = new BehaviorSubject<string>("");
   searchedStations$: Observable<string[]>;
   selectedStation$: Observable<string | undefined>;
